@@ -42,6 +42,7 @@ public class StudentTest {
 		System.out.println(collect2);
 		
 		s.stream().filter(i->i.getSalary()>=40000.00).forEach(i->System.out.println(i));
+		//Optional Class is avoid null pointer Exceptions
 		
 		
 	}
