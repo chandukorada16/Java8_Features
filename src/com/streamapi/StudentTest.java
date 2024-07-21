@@ -43,7 +43,7 @@ public class StudentTest {
 		
 		s.stream().filter(i->i.getSalary()>=40000.00).forEach(i->System.out.println(i));
 		
-		//Mera NAme Rocky hiii
+		
 	}
 
 }
