@@ -51,6 +51,8 @@ public class EmployeeData {
 		Map<String, Long> genderCount = empData.stream().collect(Collectors.groupingBy(Employee::getEmpGender,Collectors.counting()));
 		genderCount.forEach((key,value)->{
 			System.out.println(key+"="+value);
+			
+			//this method 
 		});
 		
 		//7.Increment Employees Salary in Developer role 10%.
